@@ -20,7 +20,7 @@
       "UpdateStageName": "Default ServerDescription.json Download",
       "UpdateSourcePlatform": "All",
       "UpdateSource": "FetchURL",
-      "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/windroseserverdescription.json",
+      "UpdateSourceData": "https://raw.githubusercontent.com/cytech-services/amp-windrose/main/windroseserverdescription.json",
       "UpdateSourceTarget": "{{$FullBaseDir}}R5",
       "UpdateSourceArgs": "ServerDescription.json",
       "OverwriteExistingFiles": false,
