@@ -1,0 +1,105 @@
+[
+  {
+    "DisplayName": "Server Name",
+    "Category": "Server",
+    "Subcategory": "General",
+    "Description": "The display name of your server.",
+    "Keywords": "server,name,display",
+    "FieldName": "ServerName",
+    "InputType": "text",
+    "ParamFieldName": "$.ServerName",
+    "DefaultValue": "AMP Powered Windrose Server",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Invite Code",
+    "Category": "Server",
+    "Subcategory": "General",
+    "Description": "Custom invite code players use to join. Minimum 6 characters, using 0-9, a-z, A-Z.",
+    "Keywords": "invite,code,join",
+    "FieldName": "InviteCode",
+    "InputType": "text",
+    "ParamFieldName": "$.InviteCode",
+    "DefaultValue": "windrose",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Max Player Count",
+    "Category": "Server",
+    "Subcategory": "General",
+    "Description": "Maximum simultaneous players. The guide recommends up to 4 for smooth performance.",
+    "Keywords": "players,max,slots,count",
+    "FieldName": "$MaxUsers",
+    "InputType": "number",
+    "MinValue": "1",
+    "ParamFieldName": "$.MaxPlayerCount",
+    "DefaultValue": "4",
+    "Placeholder": "4",
+    "Suffix": "players",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Password Protected",
+    "Category": "Security",
+    "Subcategory": "Access",
+    "Description": "Require a password to join the server.",
+    "Keywords": "password,protected,private",
+    "FieldName": "IsPasswordProtected",
+    "InputType": "checkbox",
+    "ParamFieldName": "$.IsPasswordProtected",
+    "DefaultValue": "false",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Server Password",
+    "Category": "Security",
+    "Subcategory": "Access",
+    "Description": "Password required if password protection is enabled.",
+    "Keywords": "password,join",
+    "FieldName": "Password",
+    "InputType": "password",
+    "ParamFieldName": "$.Password",
+    "DefaultValue": "",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "World Island ID",
+    "Category": "World",
+    "Subcategory": "Selection",
+    "Description": "ID of the world that the server should load. This must match the world folder name and the WorldIslandId/IslandId fields in the generated world files.",
+    "Keywords": "world,island,id",
+    "FieldName": "WorldIslandId",
+    "InputType": "text",
+    "ParamFieldName": "$.WorldIslandId",
+    "DefaultValue": "",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "P2P Proxy Address",
+    "Category": "Network",
+    "Subcategory": "Binding",
+    "Description": "IP address used for listening sockets.",
+    "Keywords": "ip,address,p2p,proxy,binding",
+    "FieldName": "P2pProxyAddress",
+    "InputType": "text",
+    "ParamFieldName": "$.P2pProxyAddress",
+    "DefaultValue": "0.0.0.0",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Persistent Server ID",
+    "Category": "Advanced",
+    "Subcategory": "Internal",
+    "Description": "Internal server identifier. The guide says not to edit this.",
+    "Keywords": "persistent,server,id",
+    "FieldName": "PersistentServerId",
+    "InputType": "text",
+    "Hidden": true,
+    "ParamFieldName": "$.PersistentServerId",
+    "DefaultValue": "",
+    "EnumValues": {}
+  }
+]
