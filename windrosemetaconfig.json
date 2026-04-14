@@ -1,7 +1,8 @@
 [
   {
-    "ConfigFile": "4129620/R5/ServerDescription.json",
-    "AutoMap": true,
-    "Importable": true
+      "ConfigFile": "R5/ServerDescription.json",
+      "AutoMap": true,
+      "Importable": true,
+      "ConfigType": "json"
   }
 ]
