@@ -3,11 +3,12 @@
     "ServerDescription_Persistent": {
         "PersistentServerId": "",
         "InviteCode": "",
-        "IsPasswordProtected": false,
-        "Password": "",
+        "IsPasswordProtected": true,
+        "Password": "Dorks",
+        "ServerName": "Bodis's Barbarians",
         "Note": "",
         "WorldIslandId": "",
-        "MaxPlayerCount": 4,
+        "MaxPlayerCount": 10,
         "P2pProxyAddress": "127.0.0.1"
     }
 }

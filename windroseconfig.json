@@ -26,6 +26,19 @@
       "EnumValues": {}
   },
   {
+      "DisplayName": "Server Name",
+      "Category": "Windrose:stadia_controller",
+      "Subcategory": "Server:dns:1",
+      "Description": "Sets the server name shown to players in the in-game server browser",
+      "Keywords": "server,name,servername,title",
+      "FieldName": "ServerName",
+      "InputType": "text",
+      "ParamFieldName": "$.ServerDescription_Persistent.ServerName",
+      "DefaultValue": "",
+      "Placeholder": "My Windrose Server",
+      "EnumValues": {}
+  },
+  {
       "DisplayName": "Server Note",
       "Category": "Windrose:stadia_controller",
       "Subcategory": "Server:dns:1",
